@@ -101,3 +101,45 @@ body{
     flex-direction: column;
     max-width: 455px;
 }
+
+.info{
+    padding: 50px 0 100px 0;
+}
+
+.info-title{
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: 900;
+    text-align: center;
+    padding: 0 0 50px 0;
+    margin: 1px 0 1px 0;
+}
+
+.info-content{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-tarjeta{
+    width: 167px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-cuadro{
+    width: 166px;
+    height: 166px;
+    border: 5px solid #3882f6;
+    border-radius: 12px;
+}
+
+.info-texto{
+    font-size: 18px;
+    display: flex;
+    text-align: center;
+    color: #6B7280;
+    margin: 8px 0 0 0;
+}
