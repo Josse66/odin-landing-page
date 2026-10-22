@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
 
 *,
 *::before,
@@ -138,8 +138,35 @@ body{
 
 .info-texto{
     font-size: 18px;
-    display: flex;
     text-align: center;
     color: #6B7280;
     margin: 8px 0 0 0;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    padding: 130px 0 100px 0;
+    
+}
+.quote-content{
+    width: 800px;
+    margin: 0 auto;
+
+}
+
+.quote-message{
+    margin: 0;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-author{
+    margin: 0;
+    padding-right: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    color:#1F2937;
+    text-align: right;
 }
