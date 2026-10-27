@@ -15,7 +15,7 @@ body{
     background-color: #1F2937;
 }
 
-.header,.hero{
+.header,.hero, .cta-content{
     max-width: 1024px;
     margin: 0 auto;
 }
@@ -169,4 +169,43 @@ body{
     font-weight: bold;
     color:#1F2937;
     text-align: right;
+}
+
+.cta{
+    padding: 100px 0;
+}
+
+.cta-content{
+    height: 150px;
+    padding: 0 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 8px;
+}
+
+.cta-title{
+    font-size: 24px ;
+    color:#F9FAF8;
+    margin: 0;
+}
+
+.cta-text{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.cta-button{
+    width: 130px;
+    height: 37px;
+    border: 2px solid white;
+    color: #F9FAF8;
+    background-color: transparent;
+    border-radius: 8px;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 17px;
 }
