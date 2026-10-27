@@ -209,3 +209,16 @@ body{
     font-weight: bold;
     font-size: 17px;
 }
+
+.footer{
+    background-color: #1F2937;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
